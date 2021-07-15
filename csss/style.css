@@ -1,0 +1,1011 @@
+
+body{
+    background-color: whitesmoke;
+}
+
+.header-bg-img {
+    /* The image used */
+    background-image: url("../images/pexels-karina-zhukovskaya-6446671.jpg");
+  
+    min-height: 670px;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    /* Needed to position the navbar */
+    position: relative;
+  }
+  
+  /* Position the navbar container inside the image */
+  .container {
+    position: absolute;
+    margin: 20px;
+    width: 100%;
+  }
+  
+  /* The navbar */
+  .topnav {
+    overflow: hidden;
+    margin-left: 50px;
+    display: flex;
+    justify-content: center;
+    
+  }
+
+  .navbar-brand{
+      color: #1D3B58;
+      font-weight: bold;
+      font-size: 25px!important;
+  }
+  
+  /* Navbar links */
+  .topnav a {
+    float: left;
+    color:white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: rgb(180, 180, 180);
+    color: black;
+  }
+
+  .bg_image_content{
+      text-align: center;
+      color:#1D3B58 ;
+      padding-top: 22px;
+  }
+
+ .bg_image_header{
+font-weight: bold;
+font-size: 45px;
+  }
+
+  .footer-row{
+      background-color: #e8e8e8!important;
+  }
+
+  .view_more{
+      width: 10%;
+      height: 40px;
+      border-radius: 6px;
+      border: #1D3B58;
+      background-color: #1D3B58;
+      color: white;
+  }
+
+  .hot_deals_section{
+      padding-top: 30px;
+  }
+.hot_deals{
+    text-align: center;
+    color: #1D3B58;
+    font-size: 25px;
+}
+
+.hot_deals_underline{
+    width: 2%;
+    border-top: 3px solid #b5b5b5;
+  margin-left: 49%;
+ 
+}
+
+.divider{
+    width: 100%;
+    border-top: 2px solid #e2e2e2;
+  
+}
+
+.footer_underline{
+    width: 25%;
+    border-top: 5px solid #b5b5b5;
+  margin-left: 40%;
+  
+  border-radius: 6px;
+}
+
+
+.column {
+    float: right;
+    width: 25%;
+    padding: 20px;
+    text-align: center;
+    
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .sofa_hot_deals_container{
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      height: 600px;
+      flex-wrap: wrap;
+     
+      align-items: center;
+  }
+
+  .chair_hot_deals_container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 600px;
+    flex-wrap: wrap;
+    
+}
+
+.chair_content{
+    padding-left: 30px;
+    padding-top: 50px;
+    color: #1D3B58;
+}
+
+  .flexbox-item{
+    
+      margin: 10px;
+     
+  }
+
+  .sofa_names{
+      padding-top: 6px;
+  }
+
+.sales_nav, .table_nav, .chair_nav, .sofa_nav :hover{
+      
+      color: black;
+      font-size: 20px;
+      cursor: pointer;
+}
+
+  .sofa_hot_deals_product_1{
+    background-size: cover;
+    background-image: url("../images/sofasale.jpg");
+    background-repeat: no-repeat;
+  height: 90%;
+
+      width: 30%;
+      flex-shrink: 0;
+      box-shadow: 10px 10px 20px #dadada;
+
+  }
+
+  .chair_hot_deals_product_1{
+    background-size: cover;
+    background-image: url("../images/chairsale.jpg");
+    background-repeat: no-repeat;
+  height: 90%;
+
+      width: 30%;
+      flex-shrink: 0;
+      box-shadow: 10px 10px 20px #dadada;
+
+  }
+.sofa_content{
+    padding-left: 30px;
+    padding-top: 50px;
+    color: #1D3B58;
+}
+.future{
+margin-left: 40px;
+}
+.sofa_design{
+    color: #1D3B58;
+}
+
+.shop_now{
+    height: 40%;
+    width: 26%;
+    border: #1D3B58;
+      background-color: #1D3B58;
+      color: white;
+      border-radius: 6px;
+      margin-left: 12px;
+}
+  .sofa_hot_deals_product_2{
+   height: 90%;
+    width: 18%;
+    border-radius: 6px;
+}
+
+.chair_hot_deals_product_2{
+    height: 90%;
+     width: 18%;
+     border-radius: 6px!important;
+ }
+ 
+
+.sofa_hot_deals_product_3{
+    height: 90%;
+    width: 18%;
+    border-radius: 6px;
+    box-shadow: 10px 10px 20px #dadada;
+
+}
+
+.chair_hot_deals_product_3{
+    height: 90%;
+    width: 18%;
+    box-shadow: 10px 10px 20px #dadada;
+
+}
+
+
+.sofa_hot_deals_product_1_image{
+    height: 100%;
+    width: 100%;
+    box-shadow: 10px 10px 20px #dadada;
+
+
+}
+
+
+.sofa_hot_deals_product_2_1{
+    height: 48%;
+    margin-bottom: 12px;
+    width: 100%;
+    box-shadow: 10px 10px 20px #dadada;
+
+}
+.chair_hot_deals_product_2_1{
+    height: 48%;
+    width: 100%;
+    margin-bottom: 12px;
+    box-shadow: 10px 10px 20px #dadada;
+
+}
+.sofa_hot_deals_product_2_2{
+    height: 50%;
+    width: 100%;
+    box-shadow: 10px 10px 20px #dadada;
+ 
+
+}
+
+.chair_hot_deals_product_2_2{
+    height: 50%;
+    width: 100%;
+    box-shadow: 10px 10px 20px #dadada;
+ 
+
+}
+
+.sofa_hot_deals_product_2_1_image{
+    height: 100%;
+    width: 100%;
+}
+
+.chair_hot_deals_product_2_1_image{
+    height: 100%;
+    width: 100%;
+}
+.sofa_hot_deals_product_2_2_image{
+    height: 100%;
+    width: 100%;
+}
+
+.chair_hot_deals_product_2_2_image{
+    height: 100%;
+    width: 100%;
+}
+
+
+.sofa_hot_deals_product_3_1{
+    height: 48%!important;
+    margin-bottom: 12px;
+    width: 100%;
+
+
+}
+
+.chair_hot_deals_product_3_1{
+    height: 48%!important;
+    margin-bottom: 12px;
+    width: 100%;
+
+
+}
+.sofa_hot_deals_product_3_2{
+    height: 50%!important;
+    width: 100%;
+ 
+
+}
+
+.chair_hot_deals_product_3_2{
+    height: 50%!important;
+    width: 100%;
+ 
+
+}
+
+.sofa_hot_deals_product_3_1_image{
+    height: 100%;
+    width: 100%;
+}
+
+.chair_hot_deals_product_3_1_image{
+    height: 100%;
+    width: 100%;
+}
+.sofa_hot_deals_product_3_2_image{
+    height: 100%;
+    width: 100%;
+}
+
+.chair_hot_deals_product_3_2_image{
+    height: 100%;
+    width: 100%;
+}
+.sofa_hot_deals_product_2_1_image_div{
+
+    height: 85%;
+}
+
+.chair_hot_deals_product_2_1_image_div{
+
+    height: 85%;
+}
+.sofa_hot_deals_product_2_1_image_name{
+background-color: #1D3B58;
+    height: 15%;
+}
+
+.chair_hot_deals_product_2_1_image_name{
+    background-color: #1D3B58;
+        height: 15%;
+    }
+    .discount_section{
+        margin-top: 40px;
+    }
+
+h6{
+   color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+.chair_hot_deal_section{
+    padding-top: 20px;
+}
+
+
+.chair_hot_deals_underline{
+    width: 30%;
+    border-top: 3px solid #b5b5b5;
+  margin-left: 32%;
+  margin-top: 40px;
+
+ 
+}
+
+.chair_hot_deals_container{
+    flex-direction: row!important;
+    margin-top: 8px;
+    align-items: center;
+
+}
+
+
+
+
+.chair_hot_deals_product1{
+    height: 90%;
+    width: 18%;
+}
+
+.chair_hot_deals_product2{
+    height: 90%;
+    width: 18%;
+}
+
+
+.chair_hot_deals_product3{
+    background-size: contain;
+    background-image: url("../images/hotdeals_image1.jpg");
+    background-repeat: no-repeat;
+  height: 90%;
+    
+      width: 30%;
+      flex-shrink: 0;
+}
+
+.discount_row{
+    width: 100%;
+    justify-content: center;
+
+}
+
+.discount_btn{
+    background-color: #1d3b58;
+    color: white;
+    height: 38px;
+    width: 25%;
+    border-radius: 6px;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.dot {
+    height: 100px;
+    width:100px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  
+  .off{
+    font-size: 31px;
+    margin-top: 28px;}
+.discount_header{
+    color: #1D3B58;
+   
+}
+
+
+.top_categories{
+    color: #1d3b58!important;
+}
+.discount_description{
+    color: #1D3B58;
+}
+
+.discount_para{
+    color: #1D3B58;
+}
+.discount_headers{
+    color: #1D3B58;
+}
+.take_off{
+    color: #1D3B58;
+    margin-top: 10px;   
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  /* Create four equal columns */
+  .column {
+    flex: 25%;
+    padding: 20px;
+  }
+  
+
+  .devicer {
+    width: 57em;
+    display: block;
+    height: 5px;
+    background-color: gold;
+    /* margin: 60px auto 0; */
+  }
+
+  /* .chair_hot_deals_product_1{
+      background-image: url("../images/chairba.jpg")!important;
+      background-size: contain!important;
+      background-repeat: repeat!important;
+  } */
+
+.var_nav{
+    width: 50%;
+}
+  .variety_prod_nav{
+      display: flex;
+      justify-content: center;
+  }
+  .variety_product_divs{
+      display: flex;
+      justify-content: center;
+  }
+
+  .variety_product_div{
+      margin: 30px;
+  }
+
+  .prod1{
+      text-align: center;
+      box-shadow: 10px 10px 20px #dadada;
+
+  }
+
+  .prod_name{
+      background-color: #1D3B58;
+      height: 35px;
+  }
+  
+  .prod_name p{
+      color: white;
+      font-size: 20px;
+      
+  }
+
+  .prod1_img img{
+    width: 260px;
+    height: 300px;
+  }
+  .first_column{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(249 249 249);
+    align-items: center;
+    align-content: center;
+    background-color:rgb(249 249 249);
+
+  }
+
+  .second{
+    align-items: flex-start;
+    background-color: rgb(249 249 249);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color:rgb(249 249 249);
+  }
+
+  .location_div{
+      display: flex;
+      height: 400px;
+    
+
+  }
+.location{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+  .map_column{
+      text-align: right;
+  }
+ 
+  .connect{
+      text-align: left;
+      margin-left: 7px;
+  }
+iframe{
+    height: 100%;
+  width: 600px;
+     border: 0;
+}
+
+.icon_mail{
+    font-size: 25px;
+    margin: 15px;
+    color: #ad2503;
+}
+
+
+.icon_call{
+    font-size: 25px;
+    margin: 15px;
+    color: #0a0f14;
+}
+
+.icon_fb{
+    font-size: 25px;
+    margin: 15px;
+    color: #1e73c2;
+}
+
+.icon_insta{
+    font-size: 25px;
+    margin: 15px;
+    color: #f35829;
+}
+.icon_wa{
+    font-size: 25px;
+    margin: 15px;
+    color: #48a845;
+}
+.icon_tw{
+    font-size: 25px;
+    margin: 15px;
+    color: #114677;
+}
+
+.contact_header{
+   
+    font-size: 24px;
+    text-align: left;
+}
+
+.mail_div{
+    display: flex;
+}
+
+.phone_div{
+    display: flex;
+    margin-left: 4px;
+}
+
+.email{
+    margin-top: 14px;
+    color: #7b7b7b;
+}
+
+.phone{
+    margin-top: 14px;
+    color: #7b7b7b;
+}
+.contact_header_div{
+    margin-left: 10px;
+}
+.contact_div{
+    text-align: center;
+}
+  .social_media_icons{
+      text-align: left;
+  }
+  
+  .news_header{
+    letter-spacing: 1px;
+    font-size: 35px;
+  }
+.search{
+    /* height: 52%; */
+    width: 100%;
+    padding: 5px;
+}
+
+  .newsletter{
+      display: flex!important;
+      background-color: #d6d6d6;
+     
+  }
+  .search_box{
+      display: flex;
+      align-items: center;
+  }
+.btn-primary{
+    border-radius: 0px;
+}
+  .search_box_div{
+      width: 60%;
+  }
+
+  .service_footer{
+      display: flex;
+  justify-content: space-around;;
+align-items: center;
+  }
+
+.footer_col{
+    background-color: #e8e8e8;
+}
+  .footer{
+      color: #1D3B58;
+      font-size: 20px;
+      font-weight: 500;
+  }
+  /* On screens that are 992px wide or less, go from four columns to two columns */
+  @media screen and (max-width: 992px) {
+    .column {
+      flex: 50%;
+    }
+  }
+  
+  /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .row {
+      flex-direction: column;
+    }
+  }
+
+  .footer_header_elements{
+    color: #7b7b7b;
+  }
+
+.contact_div{
+    display: flex;
+    justify-content: center;
+}
+
+  /* On screens that are 992px wide or less, go from four columns to two columns */
+  @media screen and (max-width: 992px) {
+    .column {
+      width: 50%;
+    }
+  }
+  
+  
+
+
+  @media screen and (max-width: 600px) {
+
+    .service_footer{
+        display: flex!important;
+        flex-direction: column!important;
+        background-color: #dad8d8;
+    }
+    .search_box_div{
+        width: 50%;
+        margin-left: 40px;
+    }
+  .first_column{
+      justify-content: center;
+  }
+    .search{
+        height: 100%;
+        padding: 7px;
+    }
+
+    .email{
+        font-size: 20px;
+    }
+.footer_header_element{
+    font-size: 25px;
+}
+
+.footer_header_elements{
+    font-size: 23px;
+  
+}
+.phone{
+    font-size: 20px;
+}
+    .sofa_hot_deals_product_3_1{
+        height: 100%!important;
+        width: 100%;
+        margin-right: 10px;
+    
+    
+    }
+
+    .chair_hot_deals_product_3_1{
+        height: 100%!important;
+        width: 100%;
+        margin-right: 10px;
+    
+    
+    }
+    .sofa_hot_deals_product_3_2{
+        height: 100%!important;
+        width: 100%;
+      
+    
+     
+    
+    }
+
+    .chair_hot_deals_product_3_2{
+        height: 100%!important;
+        width: 100%;
+     
+    
+    }
+   
+    .var_nav{
+        width: 100%;
+    }
+
+    iframe{
+        height: 100%;
+        /* width: 100%; */
+        width: 100%;
+       
+    }
+
+    .service_footer{
+        justify-content: space-around;
+    }
+
+    .footer_underline{
+        
+      margin-left: 145px;
+    }
+    
+
+    .location_div{
+        flex-wrap: nowrap;
+    }
+   .map_column{
+       height: 100%;
+       padding: 0;
+   }
+
+   .contact_div{
+   background-color: #dad8d8 ;
+   }
+
+    .variety_product_divs{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .second{
+        align-items: center;
+    }
+  
+    .discount_header{
+       
+        padding-top: 20px;
+    }
+    
+      .header-bg-img{
+          min-height: 300px;
+      }
+      .column {
+        width: 100%;
+      }
+      .view_more{
+          width: 30%;
+      }
+
+      .sofa_hot_deals_container {
+          height: 600px;
+      }
+
+      .chair_hot_deals_container {
+        height: 450px;
+    }
+      .hot_deals_section{
+        padding-top: 10px;
+    }
+
+      .sofa_hot_deals_product_1{
+          background-size: cover;
+          background-image: url("../images/hotdeals_image1.jpg");
+          background-repeat: no-repeat;
+        height: 30%;
+    width: 95%;
+    /* margin-top: 10px; */
+    margin-right: 21px;
+    margin-bottom: 0px;
+    margin-left: 21px;
+    }
+
+    .chair_hot_deals_product_1{
+        background-size: cover;
+        background-image: url("../images/hotdeals_image1.jpg");
+        background-repeat: no-repeat;
+      height: 30%;
+  width: 95%;
+  /* margin-top: 10px; */
+  margin-right: 21px;
+  margin-bottom: 0px;
+  margin-left: 21px;
+  }
+
+    h6{
+        font-size: 15px;
+    }
+  
+    .sofa_hot_deals_product_2{
+        display: flex;
+       height: 30%;
+        width: 95%;
+  
+        margin-right: 9px;
+        margin-bottom: 0px;
+        margin-left: 9px;
+  }
+
+
+  
+  .chair_hot_deals_product_2{
+    display: flex;
+   height: 30%;
+    width: 95%;
+
+    margin-right: 9px;
+    margin-bottom: 0px;
+    margin-left: 9px;
+}
+
+  .sofa_hot_deals_product_2_1{
+      height: 100%;
+      width: 100%;
+  }
+
+  .chair_hot_deals_product_2_1{
+    height: 100%;
+    width: 100%;
+}
+
+
+  .sofa_hot_deals_product_2_2{
+    height: 100%;
+    width: 100%;
+    margin-left: 10px;
+}
+
+.chair_hot_deals_product_2_2{
+    height: 100%;
+    width: 100%;
+    margin-left: 10px;
+}
+
+
+.devicer {
+    width: 13em;
+}
+.discount_btn{
+    width: 50%;
+}
+  .sofa_hot_deals_product_3{
+      display: flex;
+    height: 30%;
+    width: 95%;
+    margin-right: 9px;
+    margin-left: 9px;
+  }
+  .chair_hot_deals_product_3{
+    display: flex;
+  height: 30%;
+  width: 95%;
+  margin-right: 9px;
+  margin-left: 9px;
+}
+.section_newsletter{
+    padding: -26px;
+    /* width: 100%; */
+    align-items: center;
+    justify-content: center;
+   
+    flex-direction: column;
+}
+    
+
+  .sofa_hot_deals_product_3_1{
+      height: 100%;
+      width: 100%;
+  }
+
+ 
+  .sofa_hot_deals_product_3_2{
+    height: 100%;
+    width: 100%;
+}
+
+.chair_hot_deals_product_3_2{
+    height: 100%;
+    width: 100%;
+}
+.shop_now{
+    width: 30%;
+    font-size: 12px;
+}
+.sofa_content {
+    padding-left: 30px;
+     padding-top: 20px; 
+    color: #1D3B58;
+}
+
+.chair_hot_deals_container{
+    display: flex;
+    flex-direction: column-reverse!important;
+    justify-content: center;
+    width: 100%;
+    height: 600px;
+    flex-wrap: wrap;
+    
+    
+}
+
+.chair_hot_deals_product_1{
+    margin-right: 9px;
+    margin-bottom: 0px;
+    margin-left: 9px;
+}
+
+
+
+.discount_row{
+    width: 100%;
+    
+
+}
+
+  }
+
+
+
+  

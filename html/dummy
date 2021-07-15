@@ -1,0 +1,17 @@
+<div class="row hot_deals_row">
+                    <div class="column" style="background-color:#aaa;">
+                     <img class="sofa_hot_deals_image_1" src="../images/chairc.jpeg" alt="">
+                    </div>
+                    
+                    <div class="column" style="background-color:#bbb;">
+                      <h2>Column 2</h2>
+                      <p>Some text..</p>
+                    </div>
+                    
+                    <div class="column" style="background-color:#ccc;">
+                      <h2>Column 3</h2>
+                      <p>Some text..</p>
+                    </div>
+                    
+                   
+                  </div>

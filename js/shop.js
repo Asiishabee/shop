@@ -482,3 +482,5 @@ jQuery(function () {
 })
 
 console.log("hello")
+
+console.log("js changes")
